@@ -19,12 +19,12 @@ code {
 .dark-mode h2, 
 .dark-mode p { color: #fafafa; }
 .dark-mode p b { color: #5dd2f0; }
-.dark-mode .Character { border: 1px solid #fafafa; }
+
 .light-mode { background: #fafafa; border: 1px solid #201e1e; }
 .light-mode h1, 
 .light-mode h2,
 .light-mode p { color: #201e1e; }
-.light-mode .Character { border: 1px solid #201e1e; }
+
 
 /*Painting the views */
 .App button {
@@ -44,8 +44,9 @@ code {
 }
 .Character {
   margin: .1rem .1rem;
-  border: 1px solid black;
+
 }
 .Character figure img {
   width: calc(100%);
+  border-radius: 100px;
 }

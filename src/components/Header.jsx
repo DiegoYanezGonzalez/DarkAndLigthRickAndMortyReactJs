@@ -12,7 +12,8 @@ const Header = () => {
     
         return (
             <div className="Header" >
-                <h1>React hooks</h1>
+                
+                <div><h1>React hooks</h1></div>
                 <button type="button" onClick= {handleClick}> {darkMode ? 'darkMode' : 'ligthMode'} 
                  </button>
             </div>
