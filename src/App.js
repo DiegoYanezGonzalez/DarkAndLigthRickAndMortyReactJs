@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Characters from './components/Characters';
 import './App.css';
+import { scryRenderedComponentsWithType } from 'react-dom/test-utils';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);    
@@ -23,3 +24,4 @@ function App() {
 }
 
 export default App;
+
